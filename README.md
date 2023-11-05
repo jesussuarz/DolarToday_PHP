@@ -2,9 +2,9 @@
 
 ## Obtener el valor del dolar paralelo de venezuela con DolarToday
 
-Lo anterior es un codigo PHP que cree para obtener desde DolarToday.com el valor del dolar en Venezuela actualizado, Esto dado que ya no se obtiene desde la api que estaba publicada en: https://s3.amazonaws.com/dolartoday/data.json
+Lo anterior es un código PHP que cree para obtener desde DolarToday.com el valor del dólar en Venezuela actualizado, Esto dado que ya no se obtiene desde la api que estaba publicada en: https://s3.amazonaws.com/dolartoday/data.json
 
-El resultado final es el siguiente: 
+El resultado final es el siguiente:
 
 ![alt text](https://github.com/jesussuarz/DolarToday_PHP/blob/main/dolartoday_php.png?raw=true)
 
@@ -43,6 +43,8 @@ else {
 
 
 ```
-Nota importante: El firewall del servidor de dolartoday podria bloquearte facilmente en caso de que intentes recuperar el valor del dolar en repetidas ocaciones o muy frecuente, te recomiendo que obtengas el valor cada X cantidad de tiempo prudente y almacenes los valores obtenidos en tu base de datos para que la consulta se torne un poco mas sencilla. De esta forma evitaras de que puedas obtener valores nulos, o no obtener nada desde la respuesta del server de dolartoday. 
 
-Postdata: Usalo con mucha responsabilidad. :)
+Nota importante: El firewall del servidor de dolartoday podría bloquearte fácilmente en caso de que intentes recuperar el valor del dólar en repetidas ocasiones o muy frecuente, te recomiendo que obtengas el valor cada X cantidad de tiempo prudente y almacenes los valores obtenidos en tu base de datos para que la consulta se torne un poco más sencilla. De esta forma evitaras de que puedas obtener valores nulos, o no obtener nada desde la respuesta del server de dolartoday. 
+
+Postdata: Úsalo con mucha responsabilidad. No me hago responsable del mal uso que se le pueda llegar a dar. :)
+
