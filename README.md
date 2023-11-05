@@ -1,4 +1,6 @@
-# DolarToday_PHP
+# DolarToday PHP
+
+## Obtener el valor del dolar paralelo de venezuela con DolarToday
 
 Lo anterior es un codigo PHP que cree para obtener desde DolarToday.com el valor del dolar en Venezuela actualizado, Esto dado que ya no se obtiene desde la api que estaba publicada en: https://s3.amazonaws.com/dolartoday/data.json
 
