@@ -23,13 +23,10 @@ else {
       curl_close($curl);
       // Decodifica la cadena JSON en un array o objeto
       $data = json_decode($response, true); // El segundo parámetro convierte a un array asociativo
-      // Vuelve a codificar el array en una cadena JSON sin escapar caracteres especiales
-      $jsonFormatted = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-      // Reemplaza los saltos de línea con etiquetas <br> para que se muestre en HTML
-      $jsonFormatted = nl2br($jsonFormatted);
-      // Imprime la cadena JSON formateada
-      echo $jsonFormatted;
+      // Imprime el array asociativo directamente
+      echo '<pre>';
+      print_r($data);
+      echo '</pre>';
 }
 ?>
-
 
