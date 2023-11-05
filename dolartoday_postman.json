@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "32582532-f410-4c60-aa1c-2d8da59db16d",
+		"name": "Dolartoday",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14392423"
+	},
+	"item": [
+		{
+			"name": "https://dolartoday.com/wp-admin/admin-ajax.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "dt_currency_calculator_handler",
+							"type": "default"
+						},
+						{
+							"key": "amount",
+							"value": "100",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dolartoday.com/wp-admin/admin-ajax.php",
+					"protocol": "https",
+					"host": [
+						"dolartoday",
+						"com"
+					],
+					"path": [
+						"wp-admin",
+						"admin-ajax.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
