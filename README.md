@@ -43,3 +43,6 @@ else {
 
 
 ```
+Nota importante: El firewall del servidor de dolartoday podria bloquearte facilmente en caso de que intentes recuperar el valor del dolar en repetidas ocaciones o muy frecuente, te recomiendo que obtengas el valor cada X cantidad de tiempo prudente y almacenes los valores obtenidos en tu base de datos para que la consulta se torne un poco mas sencilla. De esta forma evitaras de que puedas obtener valores nulos, o no obtener nada desde la respuesta del server de dolartoday. 
+
+Postdata: Usalo con mucha responsabilidad. :)
